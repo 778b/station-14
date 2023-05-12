@@ -5,7 +5,7 @@
   minPlayers: 0
   maxPlayers: 35
   stations:
-    Eclipse:
+    AESDouble:
       mapNameTemplate: 'Advanced Expedition Station {0} Double-{1}'
       nameGenerator:
         !type:NanotrasenNameGenerator

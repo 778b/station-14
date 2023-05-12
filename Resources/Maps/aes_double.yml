@@ -154,45 +154,45 @@ entities:
             color: '#FFFFFFFF'
             id: Bot
           decals:
-            38: 11,-65
-            39: 11,-66
-            40: 12,-66
-            41: 12,-65
-            42: 13,-65
-            43: 13,-66
-            44: 14,-66
-            45: 14,-65
-            46: 15,-65
+            11: 11,-65
+            12: 11,-66
+            13: 12,-66
+            14: 12,-65
+            15: 13,-65
+            16: 13,-66
+            17: 14,-66
+            18: 14,-65
+            19: 15,-65
         - node:
             color: '#FFFFFFFF'
             id: BotRight
           decals:
-            27: 14,-63
-            28: 13,-63
-            29: 12,-63
-            30: 11,-63
-            31: 10,-63
-            32: 9,-63
+            0: 14,-63
+            1: 13,-63
+            2: 12,-63
+            3: 11,-63
+            4: 10,-63
+            5: 9,-63
         - node:
             color: '#FFFFFFFF'
             id: Box
           decals:
-            33: 9,-68
-            34: 10,-68
-            35: 11,-68
-            36: 12,-68
-            37: 13,-68
+            6: 9,-68
+            7: 10,-68
+            8: 11,-68
+            9: 12,-68
+            10: 13,-68
         - node:
             color: '#FFFFFFFF'
             id: WarnLineE
           decals:
-            54: -4,-77
-            55: -4,-76
-            56: -4,-75
-            57: -4,-74
-            58: -4,-73
-            59: -4,-72
-            60: -4,-71
+            20: -4,-77
+            21: -4,-76
+            22: -4,-75
+            23: -4,-74
+            24: -4,-73
+            25: -4,-72
+            26: -4,-71
       type: DecalGrid
     - version: 2
       data:
@@ -733,35 +733,35 @@ entities:
           5,-9:
             0: 65535
           -4,-14:
-            0: 65520
+            0: 65535
           -4,-13:
             0: 65535
           -3,-14:
-            0: 65532
+            0: 65535
           -2,-14:
             0: 65535
           -2,-15:
-            0: 32768
+            0: 65535
           -1,-15:
-            0: 61440
+            0: 65535
           -1,-14:
             0: 65535
           0,-15:
-            0: 61440
+            0: 65535
           0,-14:
             0: 65535
           1,-15:
-            0: 12288
+            0: 65535
           1,-14:
             0: 65535
           2,-14:
-            0: 65527
+            0: 65535
           3,-14:
-            0: 65520
+            0: 65535
           3,-13:
             0: 65535
           4,-14:
-            0: 4368
+            0: 13107
           4,-13:
             0: 4369
           8,-4:
@@ -771,31 +771,129 @@ entities:
           -9,-4:
             0: 255
           -8,-12:
-            0: 65520
+            0: 65535
           -8,-11:
             0: 65535
           -8,-10:
             0: 65535
           -7,-12:
-            0: 4368
+            0: 4369
           -7,-11:
             0: 65535
           -9,-12:
-            0: 34944
+            0: 61166
           -9,-11:
-            0: 34952
+            0: 35054
           8,-12:
-            0: 13104
+            0: 13107
           8,-11:
             0: 13107
           6,-11:
             0: 65535
           7,-12:
-            0: 65520
+            0: 65535
           7,-11:
             0: 65535
           7,-10:
             0: 65535
+          -4,-16:
+            0: 65535
+          -4,-15:
+            0: 65535
+          -3,-16:
+            0: 65535
+          -3,-15:
+            0: 65535
+          -2,-16:
+            0: 65535
+          -1,-16:
+            0: 65535
+          0,-16:
+            0: 65535
+          1,-16:
+            0: 65535
+          2,-16:
+            0: 65535
+          2,-15:
+            0: 65535
+          3,-16:
+            0: 65535
+          3,-15:
+            0: 65535
+          4,-16:
+            0: 13107
+          4,-15:
+            0: 13107
+          7,-13:
+            0: 61440
+          -8,-13:
+            0: 61440
+          -7,-13:
+            0: 4096
+          -5,-16:
+            0: 34952
+          -5,-15:
+            0: 34952
+          -5,-14:
+            0: 34952
+          -9,-13:
+            0: 57344
+          8,-13:
+            0: 12288
+          -4,-17:
+            0: 65518
+          -4,-18:
+            0: 49152
+          -3,-18:
+            0: 61440
+          -3,-17:
+            0: 65535
+          -2,-20:
+            0: 65280
+          -2,-19:
+            0: 65535
+          -2,-18:
+            0: 65535
+          -2,-17:
+            0: 65535
+          -1,-20:
+            0: 65280
+          -1,-19:
+            0: 65535
+          -1,-18:
+            0: 65535
+          -1,-17:
+            0: 65535
+          0,-20:
+            0: 65280
+          0,-19:
+            0: 65535
+          0,-18:
+            0: 65535
+          0,-17:
+            0: 65535
+          1,-20:
+            0: 65280
+          1,-19:
+            0: 65535
+          1,-18:
+            0: 65535
+          1,-17:
+            0: 65535
+          2,-20:
+            0: 4352
+          2,-19:
+            0: 4369
+          2,-18:
+            0: 61713
+          2,-17:
+            0: 65535
+          3,-18:
+            0: 28672
+          3,-17:
+            0: 65535
+          4,-17:
+            0: 4352
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
@@ -831,6 +929,8 @@ entities:
       type: GridAtmosphere
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - id: AESDouble
+      type: BecomesStation
   - uid: 33
     components:
     - type: MetaData
@@ -3646,7 +3746,7 @@ entities:
     - pos: -10.393812,-67.65428
       parent: 1
       type: Transform
-    - nextSound: 13463.2932123
+    - nextSound: 13463.2932122
       type: EmitSoundOnCollide
 - proto: FoodMeat
   entities:
@@ -3689,7 +3789,7 @@ entities:
       type: MetaData
     - parent: 1419
       type: Transform
-    - nextSound: 5179.8023441
+    - nextSound: 5179.802344
       type: EmitSoundOnCollide
     - canCollide: False
       type: Physics
@@ -4082,7 +4182,7 @@ entities:
       pos: 5.5,-47.5
       parent: 1
       type: Transform
-    - nextSound: 8414.3847488
+    - nextSound: 8414.3847487
       type: EmitSoundOnCollide
 - proto: GasPressurePump
   entities:
@@ -4116,7 +4216,7 @@ entities:
       pos: -24.5,-19.5
       parent: 1
       type: Transform
-    - nextSound: 588.5810922
+    - nextSound: 588.5810921
       type: EmitSoundOnCollide
   - uid: 1831
     components:
@@ -4153,7 +4253,7 @@ entities:
       pos: 11.5,-46.5
       parent: 1
       type: Transform
-    - nextSound: 8408.3325727
+    - nextSound: 8408.3325726
       type: EmitSoundOnCollide
   - uid: 1841
     components:
@@ -6832,7 +6932,7 @@ entities:
     - pos: -5.4377475,-69.17464
       parent: 1
       type: Transform
-    - nextSound: 12098.0500535
+    - nextSound: 12098.0500534
       type: EmitSoundOnCollide
   - uid: 2339
     components:
@@ -6862,7 +6962,7 @@ entities:
     - pos: -5.6564975,-70.44026
       parent: 1
       type: Transform
-    - nextSound: 12103.852613
+    - nextSound: 12103.8526129
       type: EmitSoundOnCollide
   - uid: 2343
     components:
@@ -6899,7 +6999,7 @@ entities:
     - pos: -5.2971225,-72.54964
       parent: 1
       type: Transform
-    - nextSound: 12115.5408913
+    - nextSound: 12115.5408912
       type: EmitSoundOnCollide
 - proto: MagazineBoxPistolPractice
   entities:
@@ -9611,7 +9711,7 @@ entities:
     - pos: -14.581028,-46.357536
       parent: 1
       type: Transform
-    - nextSound: 8575.8163445
+    - nextSound: 8575.8163444
       type: EmitSoundOnCollide
   - uid: 2199
     components:
@@ -10675,7 +10775,7 @@ entities:
     - pos: -15.5,-22.5
       parent: 1
       type: Transform
-    - nextEmpEject: 6327.2016251
+    - nextEmpEject: 6327.201625
       type: VendingMachine
 - proto: VendingMachineExpeditionDrobe
   entities:
